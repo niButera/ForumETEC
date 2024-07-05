@@ -1,0 +1,230 @@
+/* FONTES */
+span {
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    line-height: 1.2;
+    font-size: 25px;
+}
+
+h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgb(255, 255, 255);
+    font-family: "Poppins";
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+h3 {
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    font-weight: normal;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+h4 {
+    color:rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-weight: normal;
+    margin: 10px 0px 5px 0px;
+    font-size: 15px;
+}
+
+h5 {
+    color:rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-weight: normal;
+    margin: 10px 0px 5px 0px;
+    font-size: 15px;
+}
+
+h6 {
+    color:rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-weight: normal;
+    margin: 10px 0px 30px 0px;
+    font-size: 15px;
+}
+
+p {
+    margin: 30px 0px 30px 0px;
+    font-family: "Poppins";
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+a {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* VIDEO */
+#video {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    height: 197px;
+    width: 350px;
+    border: 0px;
+}
+
+@media (min-width: 768px) {
+    #video {
+        height: 300px;
+        width: 533px;
+    }
+}
+
+/* PARTE VERMELHA DO SITE */
+#RedBox {
+    background: linear-gradient(to left, rgba(211, 73, 73, 1), rgba(145, 17, 16, 1));
+    margin: 30px 0px 30px 0px;
+    border-radius: 25px;
+    padding-top: 1px;
+}
+
+#RedBox2 {
+    background: linear-gradient(to left, rgba(211, 73, 73, 1), rgba(145, 17, 16, 1));
+    margin: 20px 0px 30px 0px;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly; /* Centraliza os itens horizontalmente */
+    flex-wrap: wrap;
+}
+
+/* BOTÕES DE INFORMAÇÕES */
+.ButtonBox, .LastButtonBox {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px 10px 0px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    border: 0px;
+    width: 90%;
+}
+
+.Btn2 {
+    /* CAIXA */
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(145, 17, 16, 1);
+    margin: 10px 0px 10px 0px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 18px;
+    border: 0px;
+    width: 100%;
+    /* FONTE */
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.LastButtonBox {
+    margin-bottom: 5%;
+}
+
+/* ICONE CALENDÁRIO */
+#Clndr1, #Clndr2, #Clndr3, #Clndr4, #Clndr5 {
+    background-image: url('media/Calendario.png');
+    background-position: 15px center;
+    background-repeat: no-repeat; 
+    background-size: 25px;
+    position: relative;
+}
+
+/* INFOMRAÇÕES */
+#info1, #info2, #info3, #info4, #info5 {
+    display: none;
+    margin-top: 10px;
+}
+
+#info1.show, #info2.show, #info3.show, #info4.show, #info5.show {
+    display: block;
+}
+
+/* ICON INFO */
+#IconI {
+    margin: 5px 10px 5px 0px;
+    width: 20px;
+}
+
+.info-item {
+    align-items: center;
+    display: flex;
+}
+
+#local {
+    width: 30px;
+}
+/* CAIXA INFO */
+#inside1, #inside2 {
+    background: rgba(230, 230, 230, 1);
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 15px;
+    border-radius: 20px;
+    flex: 1;
+}
+
+#inside2 {
+    margin-bottom: 0px;
+}
+
+/* SLIDE */
+.slide-container {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.slide {
+    display: flex;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+}
+
+.banner {
+    scroll-snap-align: start; 
+    border-radius: 25px;
+    margin-right: 20px;
+    flex: 0 0 auto; 
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .banner {
+        width: 60%;
+    }
+}
+
+/* INFO LOCAL */
+@media (max-width: 600px) {
+    .info-local {
+        flex-direction: column; 
+    }
+}
+
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+
