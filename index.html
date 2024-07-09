@@ -19,230 +19,234 @@
 </head>
 
 <body>
-    <!-- VIDEO EXEMPLO -->
-    <div class="video">
-        <iframe src="css/media/ningning.mp4" id="video" frameborder="0" allow="autoplay; encrypted-media"
-            allowfullscreen></iframe>
+    <div class="header">
+        <!-- LOGO DO FORUM -->
+        <img src="css/media/flogo.png" id="logo" alt="Logo ETEC Adolpho Berezin" width="130px">
     </div>
+    <div class="content">
+        <!-- TITULO -->
+        <h1>Fórum Tecnológico Interdisciplinar</h1>
 
-    <!-- LOGO DO FORUM -->
-    <img src="css/media/flogo.png" id="logo" alt="Logo ETEC Adolpho Berezin" width="130px">
+        <!-- INFORMAÇÕES -->
+        <p>Inscreva-se agora para o x°
+            <br>Fórum Tecnológico Interdisciplinar
+            <br>da ETEC Adolpho Berezin!
+        </p>
 
-    <!-- TITULO -->
-    <h1>Fórum Tecnológico Interdisciplinar</h1>
+        <!-- BOTÃO -->
+        <button class="btn" onclick="window.location.href='inscricao.html'">Inscreva-se</button>
 
-    <!-- INFORMAÇÕES -->
-    <p>Inscreva-se agora para o x°
-        <br>Fórum Tecnológico Interdisciplinar
-        <br>da ETEC Adolpho Berezin!
-    </p>
+        <!-- PARTE VERMELHA COM A PROGRAMAÇÃO -->
+        <div id="RedBox">
+            <h2>Programação</h2>
 
-    <!-- BOTÃO -->
-    <button class="btn" onclick="window.location.href='inscricao.html'">Inscreva-se</button>
-
-    <!-- PARTE VERMELHA COM A PROGRAMAÇÃO -->
-    <div id="RedBox">
-        <h2>Programação</h2>
-
-        <!-- BOTÃO 1  -->
-        <button id="Clndr1" class="ButtonBox" onclick="toggleInfo('Clndr1')">
-            <span id="buttonText1">Segunda-Feira (XX/XX)</span>
-            <div id="info1" class="info">
-                <div id="inside1">
-                    <div class="box">
-                        <div class="info-item">
-                            <img src="css/media/feliz.png" id="IconI">
-                            <span>Nome Pessoa</span>
+            <!-- BOTÃO 1  -->
+            <button id="Clndr1" class="ButtonBox" onclick="toggleInfo('Clndr1')">
+                <span id="buttonText1">Segunda-Feira (XX/XX)</span>
+                <div id="info1" class="info">
+                    <div id="inside1">
+                        <div class="box">
+                            <div class="info-item">
+                                <img src="css/media/feliz.png" id="IconI">
+                                <span>Nome Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/profissao.png" id="IconI">
+                                <span>Profissão Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/local.png" id="IconI">
+                                <span>Local Evento</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/relogio.png" id="IconI">
+                                <span>XX:XXh</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/tema.png" id="IconI">
+                                <h3>Descrição evento, pode ser bem grande</h3>
+                            </div>
                         </div>
-                        <div class="info-item">
-                            <img src="css/media/profissao.png" id="IconI">
-                            <span>Profissão Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/local.png" id="IconI">
-                            <span>Local Evento</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/relogio.png" id="IconI">
-                            <span>XX:XXh</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/tema.png" id="IconI">
-                            <h3>Descrição evento, pode ser bem grande</h3>
+                    </div>
+                    <div id="inside2">
+                        <div class="box" id="0">
+                            <div class="info-item">
+                                <img src="css/media/evento.png" id="IconI">
+                                <span>Nome Outro Evento</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/local.png" id="IconI">
+                                <span>Local Evento</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/relogio.png" id="IconI">
+                                <span>XX:XXh</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div id="inside2">
-                    <div class="box" id="0">
-                        <div class="info-item">
-                            <img src="css/media/evento.png" id="IconI">
-                            <span>Nome Outro Evento</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/local.png" id="IconI">
-                            <span>Local Evento</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/relogio.png" id="IconI">
-                            <span>XX:XXh</span>
+            </button>
+
+
+            <!-- BOTÃO 2 -->
+            <button id="Clndr2" class="ButtonBox" onclick="toggleInfo('Clndr2')">
+                <span id="buttonText2">Terça-Feira (XX/XX)</span>
+                <div id="info2" class="info">
+                    <div id="inside2">
+                        <div class="box">
+                            <div class="info-item">
+                                <img src="css/media/feliz.png" id="IconI">
+                                <span>Nome Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/profissao.png" id="IconI">
+                                <span>Profissão Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/local.png" id="IconI">
+                                <span>Local Evento</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/relogio.png" id="IconI">
+                                <span>XX:XXh</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/tema.png" id="IconI">
+                                <h3>Descrição evento, pode ser bem grande</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </button>
+
+            <!-- BOTÃO 3 -->
+            <button id="Clndr3" class="ButtonBox" onclick="toggleInfo('Clndr3')">
+                <span id="buttonText3">Quarta-Feira (XX/XX)</span>
+                <div id="info3" class="info">
+                    <div id="inside2">
+                        <div class="box">
+                            <div class="info-item">
+                                <img src="css/media/feliz.png" id="IconI">
+                                <span>Nome Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/profissao.png" id="IconI">
+                                <span>Profissão Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/local.png" id="IconI">
+                                <span>Local Evento</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/relogio.png" id="IconI">
+                                <span>XX:XXh</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/tema.png" id="IconI">
+                                <h3>Descrição evento, pode ser bem grande</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </button>
+
+            <!-- BOTÃO 4 -->
+            <button id="Clndr4" class="ButtonBox" onclick="toggleInfo('Clndr4')">
+                <span id="buttonText4">Quinta-Feira (XX/XX)</span>
+                <div id="info4" class="info">
+                    <div id="inside2">
+                        <div class="box">
+                            <div class="info-item">
+                                <img src="css/media/feliz.png" id="IconI">
+                                <span>Nome Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/profissao.png" id="IconI">
+                                <span>Profissão Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/local.png" id="IconI">
+                                <span>Local Evento</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/relogio.png" id="IconI">
+                                <span>XX:XXh</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/tema.png" id="IconI">
+                                <h3>Descrição evento, pode ser bem grande</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </button>
+
+            <!-- BOTÃO 5 -->
+            <button id="Clndr5" class="LastButtonBox" onclick="toggleInfo('Clndr5')">
+                <span id="buttonText5">Sexta-Feira (XX/XX)</span>
+                <div id="info5" class="info">
+                    <div id="inside2">
+                        <div class="box">
+                            <div class="info-item">
+                                <img src="css/media/feliz.png" id="IconI">
+                                <span>Nome Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/profissao.png" id="IconI">
+                                <span>Profissão Pessoa</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/local.png" id="IconI">
+                                <span>Local Evento</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/relogio.png" id="IconI">
+                                <span>XX:XXh</span>
+                            </div>
+                            <div class="info-item">
+                                <img src="css/media/tema.png" id="IconI">
+                                <h3>Descrição evento, pode ser bem grande</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </div>
+
+        <!-- BANNER EVENTO -->
+        <div class="slide-container">
+            <div class="slide">
+                <iframe src="css/media/ningning.mp4" class="banner" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+                <img src="css/media/bannerexemplo.png" class="banner" alt="Banner do evento">
+                <img src="css/media/bannerexemplo2.png" class="banner" alt="Banner do evento 2">
             </div>
-        </button>
+        </div>
 
-        <!-- BOTÃO 2 -->
-        <button id="Clndr2" class="ButtonBox" onclick="toggleInfo('Clndr2')">
-            <span id="buttonText2">Terça-Feira (XX/XX)</span>
-            <div id="info2" class="info">
-                <div id="inside2">
-                    <div class="box">
-                        <div class="info-item">
-                            <img src="css/media/feliz.png" id="IconI">
-                            <span>Nome Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/profissao.png" id="IconI">
-                            <span>Profissão Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/local.png" id="IconI">
-                            <span>Local Evento</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/relogio.png" id="IconI">
-                            <span>XX:XXh</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/tema.png" id="IconI">
-                            <h3>Descrição evento, pode ser bem grande</h3>
-                        </div>
-                    </div>
-                </div>
+        <h4>Deslize para ver mais</h4>
+
+        <!-- BOTÃO -->
+        <button id="Glr" class="Btn2" onclick="window.location.href='galeria.html'">Ver Galeria</button>
+
+
+        <div id="RedBox2">
+            <div class="info-local">
+                <img src="css/media/localw.png" id="local" alt="">
+                <h5>ETEC Adolpho Berezin</h5>
             </div>
-        </button>
-
-        <!-- BOTÃO 3 -->
-        <button id="Clndr3" class="ButtonBox" onclick="toggleInfo('Clndr3')">
-            <span id="buttonText3">Quarta-Feira (XX/XX)</span>
-            <div id="info3" class="info">
-                <div id="inside2">
-                    <div class="box">
-                        <div class="info-item">
-                            <img src="css/media/feliz.png" id="IconI">
-                            <span>Nome Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/profissao.png" id="IconI">
-                            <span>Profissão Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/local.png" id="IconI">
-                            <span>Local Evento</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/relogio.png" id="IconI">
-                            <span>XX:XXh</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/tema.png" id="IconI">
-                            <h3>Descrição evento, pode ser bem grande</h3>
-                        </div>
-                    </div>
-                </div>
+            <div class="info-local">
+                <img src="css/media/place.png" id="local" alt="">
+                <h5>Av. Monteiro Lobato, nº 8000<br>Bal. Jussara, Mongaguá</h5>
             </div>
-        </button>
-
-        <!-- BOTÃO 4 -->
-        <button id="Clndr4" class="ButtonBox" onclick="toggleInfo('Clndr4')">
-            <span id="buttonText4">Quinta-Feira (XX/XX)</span>
-            <div id="info4" class="info">
-                <div id="inside2">
-                    <div class="box">
-                        <div class="info-item">
-                            <img src="css/media/feliz.png" id="IconI">
-                            <span>Nome Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/profissao.png" id="IconI">
-                            <span>Profissão Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/local.png" id="IconI">
-                            <span>Local Evento</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/relogio.png" id="IconI">
-                            <span>XX:XXh</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/tema.png" id="IconI">
-                            <h3>Descrição evento, pode ser bem grande</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </button>
-
-        <!-- BOTÃO 5 -->
-        <button id="Clndr5" class="LastButtonBox" onclick="toggleInfo('Clndr5')">
-            <span id="buttonText5">Sexta-Feira (XX/XX)</span>
-            <div id="info5" class="info">
-                <div id="inside2">
-                    <div class="box">
-                        <div class="info-item">
-                            <img src="css/media/feliz.png" id="IconI">
-                            <span>Nome Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/profissao.png" id="IconI">
-                            <span>Profissão Pessoa</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/local.png" id="IconI">
-                            <span>Local Evento</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/relogio.png" id="IconI">
-                            <span>XX:XXh</span>
-                        </div>
-                        <div class="info-item">
-                            <img src="css/media/tema.png" id="IconI">
-                            <h3>Descrição evento, pode ser bem grande</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </button>
-    </div>
-
-    <!-- BANNER EVENTO -->
-    <div class="slide-container">
-        <div class="slide">
-            <img src="css/media/bannerexemplo.png" class="banner" alt="Banner do evento">
-            <img src="css/media/bannerexemplo2.png" class="banner" alt="Banner do evento 2">
         </div>
     </div>
 
-    <h4>Deslize para ver mais</h4>
-
-    <!-- BOTÃO -->
-    <button id="Glr" class="Btn2" onclick="window.location.href='galeria.html'">Ver Galeria</button>
-
-
-    <div id="RedBox2">
-        <div class="info-local">
-            <img src="css/media/localw.png" id="local" alt="">
-            <h5>ETEC Adolpho Berezin</h5>
-        </div>
-        <div class="info-local">
-            <img src="css/media/place.png" id="local" alt="">
-            <h5>Av. Monteiro Lobato, nº 8000<br>Bal. Jussara, Mongaguá</h5>
-        </div>
+    <div class="footer">
+        <h6>Site desenvolvido pelos alunos
+            <br><a href="https://github.com/niButera">Nicolas</a> e <a href="https://github.com/yukio-sato">Yukio</a>
+            3i3 -
+            1º Semestre - 2024
+        </h6>
     </div>
-
-    <h6>Site desenvolvido pelos alunos
-        <br><a href="https://github.com/niButera">Nicolas</a> e <a href="https://github.com/yukio-sato">Yukio</a> 3i3 - 1º Semestre - 2024</h6>
-    
     <script src="js/datas.js"></script>
 </body>

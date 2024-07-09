@@ -95,16 +95,6 @@ a {
     padding-top: 1px;
 }
 
-#RedBox2 {
-    background: linear-gradient(to left, rgba(211, 73, 73, 1), rgba(145, 17, 16, 1));
-    margin: 20px 0px 30px 0px;
-    border-radius: 25px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly; /* Centraliza os itens horizontalmente */
-    flex-wrap: wrap;
-}
-
 /* BOTÕES DE INFORMAÇÕES */
 .ButtonBox, .LastButtonBox {
     box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
@@ -155,13 +145,13 @@ a {
 #local {
     width: 30px;
 }
+
 /* CAIXA INFO */
 #inside1, #inside2 {
     background: rgba(230, 230, 230, 1);
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 15px;
     border-radius: 20px;
-    flex: 1;
 }
 
 #inside2 {
