@@ -90,7 +90,7 @@ a {
 /* PARTE VERMELHA DO SITE */
 #RedBox {
     background: linear-gradient(to left, rgba(211, 73, 73, 1), rgba(145, 17, 16, 1));
-    margin: 30px 0px 30px 0px;
+    margin: 10px 0px 30px 0px;
     border-radius: 25px;
     padding-top: 1px;
 }
@@ -116,22 +116,6 @@ a {
     padding: 15px;
     border: 0px;
     width: 90%;
-}
-
-.Btn2 {
-    /* CAIXA */
-    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
-    background-color: rgba(145, 17, 16, 1);
-    margin: 10px 0px 10px 0px;
-    border-radius: 20px;
-    text-align: center;
-    cursor: pointer;
-    padding: 18px;
-    border: 0px;
-    width: 100%;
-    /* FONTE */
-    font-family: "Poppins", sans-serif;
-    color: white;
 }
 
 .LastButtonBox {
@@ -182,38 +166,4 @@ a {
 
 #inside2 {
     margin-bottom: 0px;
-}
-
-/* SLIDE */
-.slide-container {
-    width: 100%;
-    overflow: hidden; 
-}
-
-.slide {
-    display: flex;
-    overflow-x: auto; 
-    scroll-snap-type: x mandatory; 
-    -webkit-overflow-scrolling: touch; 
-}
-
-.banner {
-    scroll-snap-align: start; 
-    border-radius: 25px;
-    margin-right: 20px;
-    flex: 0 0 auto; 
-    width: 100%;
-}
-
-@media (min-width: 1024px) {
-    .banner {
-        width: 60%;
-    }
-}
-
-/* INFO LOCAL */
-@media (max-width: 600px) {
-    .info-local {
-        flex-direction: column; 
-    }
 }

@@ -88,15 +88,65 @@ input::placeholder {
     font-family: "Poppins", sans-serif;
     border-radius: 50px;
     padding: 10px 30px;
+    margin-bottom: 20px;
     font-size: 15px;
     cursor: pointer;
     color: white;
     border: 0px;
 }
 
-.btn:hover {
-    box-shadow: 0px 0px 8px rgb(255, 0, 0);
+.Btn2 {
+    /* CAIXA */
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(145, 17, 16, 1);
+    margin: 10px 0px 10px 0px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 18px;
+    border: 0px;
+    width: 100%;
+    /* FONTE */
+    font-family: "Poppins", sans-serif;
+    color: white;
 }
 
+.btn:hover {
+    box-shadow: 0 0 10px 0 rgba(255, 0, 0, 0.7);
+}
+
+/* SLIDE */
+.slide-container {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.slide {
+    display: flex;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+}
+
+.banner {
+    scroll-snap-align: start; 
+    border-radius: 25px;
+    margin-right: 20px;
+    flex: 0 0 auto; 
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .banner {
+        width: 60%;
+    }
+}
+
+/* INFO LOCAL */
+@media (max-width: 600px) {
+    .info-local {
+        flex-direction: column; 
+    }
+}
 
 
