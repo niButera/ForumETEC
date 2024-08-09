@@ -69,3 +69,11 @@ a {
         width: 20%;
     }
 }
+
+#center {
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    display: flex;
+    height: 39vh; 
+}
