@@ -1,0 +1,159 @@
+/* CABEÇALHO */
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%; 
+}
+
+#back, #logo, #empty {
+    flex: 0 0 auto;
+}
+
+/* FONTES */
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    font-size: 30px;
+    margin: 0px;
+}
+
+h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    margin: 0px 0px 10px 0px;
+    font-family: "Poppins";
+    text-align: left;
+    line-height: 1.2;
+    font-size: 23px;
+}
+
+h3 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    margin: 30px 0px 15px 0px;
+    font-family: "Poppins";
+    text-align: left;
+    line-height: 1.2;
+    font-size: 23px;
+}
+
+h5 {
+    color:rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-weight: normal;
+    margin: 30px 0px 30px 0px;
+    font-size: 15px;
+}
+
+p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+a {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#principal {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.180);
+    scroll-snap-align: start; 
+    aspect-ratio: 21 / 9;
+    border-radius: 20px;
+    object-fit: cover; 
+    flex: 0 0 auto; 
+    width: 100%;
+}
+
+#secundarias {
+    justify-content: space-between;
+    box-sizing: border-box; 
+    align-items: center;
+    margin-top: 3%; 
+    display: flex;
+    width: 100%;
+}
+
+.scnd, .btnshow{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.180);
+    transition: 0.3s ease, transform 0.3s ease;
+    border-radius: 15px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover; 
+    width: 23%; 
+}
+
+.scnd:hover {
+    width: 20%;
+}
+
+.btnshow:hover {
+    width: 20%;
+}
+
+/* MODAL */
+.modal {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 20px; 
+    position: fixed; 
+    overflow: auto; 
+    display: none; 
+    height: 100%; 
+    z-index: 999; 
+    width: 100%; 
+    left: 0;
+    top: 0;
+}
+
+.modal-content {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.prev, .next {
+    color: rgba(255, 255, 255, 0.842);
+    border-radius: 0 3px 3px 0;
+    transition: 0.3s ease;
+    position: absolute;
+    margin-top: -50px;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    width: auto;
+    top: 50%;
+}
+
+.prev {
+    border-radius: 3px 0 0 3px;
+    left: 0;
+}
+
+.next {
+    border-radius: 0 3px 3px 0;
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#dentro, #dentroEDF, #dentroENF, #dentroTI, #dentroTRSM {
+    overflow: hidden; 
+    display: none;
+}
+
+
+
+
+

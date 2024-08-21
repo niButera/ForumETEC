@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="css/media/logo.png">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/inscricao.css">
+
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Inscrição - Fórum Tecnológico Interdisciplinar</title>
+</head>
+
+<body>
+    <!-- CABEÇALHO -->
+    <div class="header">
+        <a href="index.html"> <img src="css/media/voltar.png" id="back" alt="Voltar"></a>
+        <img src="css/media/flogo.png" id="logo" alt="Logo ETEC Adolpho Berezin" width="80px">
+        <img src="css/media/empty.png" id="back">
+    </div>
+
+    <div class="content">
+        <!-- TITULO -->
+        <h1>Fórum Tecnológico Interdisciplinar</h1>
+
+        <!-- INFORMAÇÕES -->
+        <h2>Inscrição</h2>
+        <p>Insira suas informações para prosseguirmos com sua inscrição</p>
+
+        <!-- CAIXAS DE TEXTO -->
+        <div class="container form">
+            <input placeholder="Nome" id="nome" type="text" class="ImputBox validate" required>
+            <input placeholder="E-Mail" id="email" type="text" class="ImputBox validate" required>
+            <input placeholder="CPF (Somente números)" id="cpf" type="text" class="ImputBox validate" maxlength="11"
+                required>
+
+            <!-- CAIXA DE SELEÇÃO -->
+            <select id="SelectPC" class="ImputBox validate" required>
+                <option value="" selected disabled hidden>Entrar como</option>
+                <option value="PAR" id="par">Participante</option>
+                <option value="CON">Convidado</option>
+            </select>
+        </div>
+
+        <!-- BOTÃO -->
+        <button class="btn" onclick="window.location.href='inscricao2.html'">Próximo</button>
+
+        <!-- BANNER EVENTO -->
+        <div class="slide-container">
+            <div class="slide">
+                <iframe src="css/media/ningning.mp4" class="banner" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+                <img src="css/media/bannerexemplo.png" class="banner" alt="Banner do evento">
+                <img src="css/media/bannerexemplo2.png" class="banner" alt="Banner do evento 2">
+            </div>
+        </div>
+
+        <h4>Deslize para ver mais</h4>
+    </div>
+
+    <div class="footer">
+        <h5>Site desenvolvido pelos alunos
+            <br><a href="https://github.com/niButera">Nicolas</a> e <a href="https://github.com/yukio-sato">Yukio</a>
+            3i3 - 1º Semestre - 2024
+        </h5>
+        <script src="js/datas.js"></script>
+    </div>
+</body>
+
+
+</html>

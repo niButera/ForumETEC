@@ -1,2 +1,2 @@
 # ForumETEC
-Site do forum etec
+Site do forum ETEC
