@@ -76,6 +76,13 @@ input::placeholder {
     background-size: 25px;
 }
 
+#SelectC {
+    background-image: url('media/profissao.png');
+    background-position: 15px center;
+    background-repeat: no-repeat; 
+    background-size: 25px;
+}
+
 #Glr {
     background-image: url('media/cameraw.png');
     background-position: 15px center;

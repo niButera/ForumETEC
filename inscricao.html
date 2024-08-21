@@ -44,13 +44,34 @@
             <!-- CAIXA DE SELEÇÃO -->
             <select id="SelectPC" class="ImputBox validate" required>
                 <option value="" selected disabled hidden>Entrar como</option>
-                <option value="PAR" id="par">Participante</option>
+                <option value="PAR" id="par">Aluno</option>
                 <option value="CON">Convidado</option>
+            </select>
+
+            <!-- CAIXA DE SELEÇÃO QUE APARECE QUANDO CLICA EM SOU ALUNO -->
+            <p>Sou do curso de:</p>
+            <select id="SelectC" class="ImputBox validate" required>
+                <option value="" selected disabled hidden>Curso</option>
+                <option value="ADM">Administração</option>
+                <option value="EDF">Edificações</option>
+                <option value="TI">Informatica</option>
+                <option value="ENF">Enfermagem</option>
+                <option value="TRS">Turismo</option>
+            </select>
+
+            <!-- CAIXA DE SELEÇÃO  QUE APARECE QUANDO CLICA EM SOU CONVIDADO -->
+            <p>Quero ir nos dias:</p>
+            <select id="SelectC" class="ImputBox validate" required>
+                <option value="" selected disabled hidden>Dia</option>
+                <option value="dia1">(09/09) Descrição Breve</option>
+                <option value="dia2">(10/09) Descrição Breve</option>
+                <option value="dia3">(11/09) Descrição Breve</option>
+                <option value="dia4">(12/09) Descrição Breve</option>
             </select>
         </div>
 
-        <!-- BOTÃO -->
-        <button class="btn" onclick="window.location.href='inscricao2.html'">Próximo</button>
+     <!-- BOTÃO -->
+     <button class="btn" onclick="window.location.href='qrcode.html'">Inscrever-se</button>
 
         <!-- BANNER EVENTO -->
         <div class="slide-container">
