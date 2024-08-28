@@ -155,13 +155,43 @@ a {
 }
 
 /* CAIXA INFO */
-#inside1, #inside2 {
+
+#inside2, #inside1 {
     background: rgba(230, 230, 230, 1);
-    margin: 10px 0px 0px 0px;
     padding: 10px 0px 10px 15px;
+    margin: 10px 0px 10px 0px;
     border-radius: 20px;
+    display: block;
 }
 
-#inside2 {
-    margin-bottom: 0px;
+#inside3 {
+    background: rgba(230, 230, 230, 1);
+    padding: 10px 0px 10px 15px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 20px;
+    display: block;
 }
+
+@media (min-width: 930px) {
+    #inside2, #inside1 {
+        padding: 10px 0px 10px 15px;
+        margin: 10px 5px 10px 0px;
+        align-items: center;
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+    }
+}
+
+@media (min-width: 1280px) {
+    #inside2, #inside1 {
+        padding: 10px 0px 10px 15px;
+        margin: 10px 15px 10px 0px;
+        align-items: center;
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+    }
+}
+
+
