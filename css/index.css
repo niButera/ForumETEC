@@ -124,7 +124,7 @@ a {
 
 /* INFOMRAÇÕES */
 #info1, #info2, #info3, #info4, #info5 {
-    display: block;
+    display: none;
     margin-top: 10px;
 }
 
