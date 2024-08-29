@@ -1,0 +1,130 @@
+/* CABEÇALHO */
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%; 
+}
+
+#back, #logo, #empty {
+    flex: 0 0 auto;
+}
+
+/* FONTES */
+span {
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    font-size: 15px;
+    margin: 0px;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    line-height: 1.2;
+    font-size: 25px;
+    margin: 0px;
+}
+
+h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    font-family: "Poppins";
+    color:rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0px;
+}
+
+h3 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    margin: 5px 0px 0px 0px;
+    font-family: "Poppins";
+    line-height: 1.2;
+    font-size: 50px;
+}
+
+h4 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    font-family: "Poppins";
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px;
+}
+
+span {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
+p {
+    font-family: "Poppins";
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+a {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    color:rgba(145, 17, 16, 1);
+    font-family: "Poppins";
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ESTATISTICAS */
+#vgs-box {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(234, 234, 234, 1);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#RedBox2 {
+    background: linear-gradient(to left, rgba(211, 73, 73, 1), rgba(145, 17, 16, 1));
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    border-radius: 25px;
+    display: block;
+}
+
+#cv-info {
+    justify-content: space-around;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#c-icon {
+    width: 30px;    
+}
+
+#c-est {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    background-color: white;
+    font-family: "Poppins";
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+}
+
+@media (min-width: 930px) {
+    #Bloco1 {
+        margin-right: 10px;
+    }
+
+    #Bloco1, #Bloco2 {
+        display: inline-block;
+        align-items: center;
+        vertical-align: top;
+        width: 45%;
+    }
+}
+

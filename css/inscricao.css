@@ -66,7 +66,7 @@ a {
 }
 
 #dia1, #dia2, #dia3, #dia4 {
-    background-color:rgba(145, 17, 16, 1);
+    accent-color:rgba(145, 17, 16, 1);
     margin-right: 20px;
     height: 20px;
     width: 20px;
