@@ -2,6 +2,7 @@
 span {
     color:rgba(145, 17, 16, 1);
     font-family: "Poppins";
+    font-weight: bold;
     font-size: 15px;
 }
 
@@ -27,7 +28,7 @@ h3 {
     font-weight: normal;
     margin-bottom: 0px;
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 0px;
 }
 
@@ -123,7 +124,7 @@ a {
 
 /* INFOMRAÇÕES */
 #info1, #info2, #info3, #info4, #info5 {
-    display: none;
+    display: block;
     margin-top: 10px;
 }
 
