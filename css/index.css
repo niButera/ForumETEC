@@ -3,7 +3,9 @@ span {
     color:rgba(145, 17, 16, 1);
     font-family: "Poppins";
     font-weight: bold;
-    font-size: 15px;
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
 }
 
 h1 {
@@ -23,9 +25,9 @@ h2 {
 }
 
 h3 {
-    color:rgba(145, 17, 16, 1);
+    color:rgb(0, 0, 0);
     font-family: "Poppins";
-    font-weight: normal;
+    font-weight: 500;
     margin-bottom: 0px;
     text-align: left;
     font-size: 14px;
@@ -33,26 +35,26 @@ h3 {
 }
 
 h4 {
-    color:rgb(0, 0, 0);
+    margin: 10px 0px 5px 0px;
     font-family: "Poppins";
     font-weight: normal;
-    margin: 10px 0px 5px 0px;
+    color:rgb(0, 0, 0);
     font-size: 15px;
 }
 
 h5 {
+    margin: 10px 0px 5px 0px;
     color:rgb(255, 255, 255);
     font-family: "Poppins";
     font-weight: normal;
-    margin: 10px 0px 5px 0px;
     font-size: 15px;
 }
 
 h6 {
-    color:rgb(0, 0, 0);
+    margin: 10px 0px 30px 0px;
     font-family: "Poppins";
     font-weight: normal;
-    margin: 10px 0px 30px 0px;
+    color:rgb(0, 0, 0);
     font-size: 15px;
 }
 
@@ -116,7 +118,7 @@ a {
 /* ICONE CALENDÁRIO */
 #Clndr1, #Clndr2, #Clndr3, #Clndr4, #Clndr5 {
     background-image: url('media/Calendario.png');
-    background-position: 15px center;
+    background-position: 20px center;
     background-repeat: no-repeat; 
     background-size: 25px;
     position: relative;
@@ -124,8 +126,8 @@ a {
 
 /* INFOMRAÇÕES */
 #info1, #info2, #info3, #info4, #info5 {
-    display: none;
     margin-top: 10px;
+    display: block;
 }
 
 #info1.show, #info2.show, #info3.show, #info4.show, #info5.show {
@@ -135,6 +137,11 @@ a {
 /* ICON INFO */
 #IconI {
     margin: 5px 10px 5px 0px;
+    width: 20px;
+}
+
+#IconI2 {
+    margin: 0px 5px;
     width: 20px;
 }
 
@@ -155,43 +162,62 @@ a {
     width: 30px;
 }
 
-/* CAIXA INFO */
-
-#inside2, #inside1 {
-    background: rgba(230, 230, 230, 1);
-    padding: 10px 0px 10px 15px;
-    margin: 10px 0px 10px 0px;
-    border-radius: 20px;
-    display: block;
+#Ppic {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+    border: 5px solid  rgba(145, 17, 16, 1);
+    margin-bottom: 10px;
+    border-radius: 100%;
+    width: 75px;
 }
 
-#inside3 {
-    background: rgba(230, 230, 230, 1);
-    padding: 10px 0px 10px 15px;
-    margin: 10px 0px 0px 0px;
-    border-radius: 20px;
-    display: block;
+#Ppic2 {
+    width: 80px;
 }
 
 @media (min-width: 930px) {
-    #inside2, #inside1 {
-        padding: 10px 0px 10px 15px;
-        margin: 10px 5px 10px 0px;
-        align-items: center;
-        display: inline-block;
-        vertical-align: top;
-        width: 30%;
+    #Ppic, #Ppic2 {
+        width: 130px;
     }
 }
 
-@media (min-width: 1280px) {
-    #inside2, #inside1 {
-        padding: 10px 0px 10px 15px;
-        margin: 10px 15px 10px 0px;
-        align-items: center;
+/* CAIXA INFO & TELA PEQUENA */
+#Inside {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.192);
+    background: rgba(220, 220, 220);
+    padding: 10px 0px 10px 15px;
+    border-radius: 20px;
+    display: block;
+}
+
+#DuoInside {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.192);
+    background:rgb(220, 220, 220);
+    padding: 10px 0px 10px 15px;
+    margin: 10px 0px 10px 0px;
+    flex-direction: column;
+    border-radius: 20px;
+    display: block;
+}
+
+/* TELA MEDIA */
+@media (min-width: 930px) {
+    #DuoInside {
+        padding: 10px 15px 10px 15px;
+        margin: 0px 2px 10px 2px;
         display: inline-block;
         vertical-align: top;
-        width: 30%;
+        width: 44%;
+    }
+}
+
+/* TELA GRANDE */
+@media (min-width: 1280px) {
+    #DuoInside {
+        display: inline-block;
+        align-items: center;
+        vertical-align: top;
+        margin: 4px;
+        width: 46%;
     }
 }
 
