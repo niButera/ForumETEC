@@ -56,6 +56,13 @@ p {
     font-size: 16px;
 }
 
+span {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    font-family: "Poppins";
+    text-align: left;
+    font-size: 16px;
+}
+
 a {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
     color:rgba(145, 17, 16, 1);
@@ -81,6 +88,13 @@ a {
     background-color:  rgba(234, 234, 234, 1);
     box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    padding: 5px 20px 5px 20px;
     margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+/* ICON INFO */
+#IconI {
+    margin: 10px;
+    width: 30px;
 }
