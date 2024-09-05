@@ -21,6 +21,23 @@ body {
     font-size: 15px;
 }
 
+.ImputBox2 {
+    /* CAIXA */
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(234, 234, 234, 1);
+    margin: 0px 0px 15px 0px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 50px;
+    border: 0px;
+    cursor: text;
+    /* TEXTO INSERIDO */
+    font-family: "Poppins", sans-serif;
+    color:rgba(145, 17, 16, 1);
+    font-size: 15px;
+}
+
 .SeePhotos {
     /* CAIXA */
     box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
@@ -38,6 +55,14 @@ body {
 /* TEXTO PADRÃO */
 input::placeholder {
     color: rgba(145, 17, 16, 1);
+}
+
+h6 {
+    margin: 10px 0px 30px 0px;
+    font-family: "Poppins";
+    font-weight: normal;
+    color:rgb(0, 0, 0);
+    font-size: 15px;
 }
   
 /* ICONE DAS CAIXAS */
@@ -83,6 +108,7 @@ input::placeholder {
     background-size: 25px;
 }
 
+/* ICONES BOTÕES */
 #Glr {
     background-image: url('media/cameraw.png');
     background-position: 15px center;
@@ -99,6 +125,48 @@ input::placeholder {
 
 #Dwld{
     background-image: url('media/download.png');
+    background-position: 15px center;
+    background-repeat: no-repeat; 
+    background-size: 25px;
+}
+
+#GRL {
+    background-image: url('media/geral.png');
+    background-position: 15px center;
+    background-repeat: no-repeat; 
+    background-size: 25px;
+}
+
+#ADM {
+    background-image: url('media/administracao.png');
+    background-position: 15px center;
+    background-repeat: no-repeat; 
+    background-size: 25px;
+}
+
+#TI {
+    background-image: url('media/informatica.png');
+    background-position: 15px center;
+    background-repeat: no-repeat; 
+    background-size: 25px;
+}
+
+#EDF {
+    background-image: url('media/edificaoes.png');
+    background-position: 15px center;
+    background-repeat: no-repeat; 
+    background-size: 25px;
+}
+
+#ENF {
+    background-image: url('media/enfermagem.png');
+    background-position: 15px center;
+    background-repeat: no-repeat; 
+    background-size: 25px;
+}
+
+#TUR {
+    background-image: url('media/turismo.png');
     background-position: 15px center;
     background-repeat: no-repeat; 
     background-size: 25px;

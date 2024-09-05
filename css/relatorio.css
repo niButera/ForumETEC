@@ -108,23 +108,50 @@ a {
     font-family: "Poppins";
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
-    border-radius: 25px;
-    padding: 20px 30px;
+    border-radius: 20px;
+    padding: 10px 30px;
     font-weight: bold;
     font-size: 17px;
     display: flex;
 }
 
+#c-est2 {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    font-family: "Poppins";
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 17px;
+}
+
 @media (min-width: 930px) {
     #Bloco1 {
-        margin-right: 10px;
+        margin-right: 15px;
     }
-
     #Bloco1, #Bloco2 {
         display: inline-block;
         align-items: center;
         vertical-align: top;
-        width: 45%;
+        width: 49%;
     }
+}
+
+#VerMais, #VerMais2 {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(234, 234, 234, 1);
+    transition: transform 0.3s ease;
+    font-family: "Poppins";
+    border-radius: 18px;
+    padding: 10px;
+    border: 0px;
+    width: 100%;
+}
+
+#VerMais:hover {
+    transform: scale(1.02);
 }
 
