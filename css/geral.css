@@ -192,7 +192,7 @@ h6 {
 }
 
 .ended {
-    background: linear-gradient(to right,rgb(63, 63, 63), rgb(110, 110, 110));
+    background: linear-gradient(to right,rgb(71, 29, 29), rgb(161, 14, 14));
     box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.637);
     font-family: "Poppins", sans-serif;
     border-radius: 50px;
